@@ -1,7 +1,5 @@
 # PART.1 - Import and merge the data ------
 rm(list=ls())
-#setwd("C:\\Users\\Daria\\Desktop\\business analytics\\Business analytics 2 sem\\text analytics")
-#setwd("C:\\Users\\SonyaIlieva\\Desktop\\UNI\\R\\Summer semester\\20.04")
 setwd("D:\\Preslava\\uni\\Business Analytics\\Boryana Saturday\\TEDx")
 ddmain=read.csv("ted_main.csv",na.strings = c(""," ","NA"), stringsAsFactors = FALSE)
 dd=read.csv("transcripts.csv",na.strings = c(""," ","NA"), stringsAsFactors = FALSE)
